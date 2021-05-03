@@ -10,12 +10,13 @@ class Text
 public:
     string data;
     string getText();
-    Text(map<prefix, vector<string> > val, vector<string> words, int val1, int val2);
+    
     vector<string> words;
     typedef deque<string> prefix;
     map<prefix, vector<string> > statetab;
     int NPREF;
     int MAXGEN;
     Text(string arr, int val1, int val2);
+    Text(map<prefix, vector<string> > val, vector<string> words, int val1, int val2);
 
 };
