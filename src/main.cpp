@@ -22,11 +22,5 @@ int main()
     in.close();
     Text gn = Text(text, 2, 1000);
     string answer = gn.getText();
-   /* ofstream out;
-    out.open("result.txt");
-    if (out.is_open())
-    {
-        out << answer;
-    }
-    out.close();*/
+
 }
